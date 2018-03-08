@@ -1,0 +1,59 @@
+.guid{
+	 
+	 float: right;
+	 
+}
+
+.guid2{
+	margin: 22px;
+	background: cornflowerblue;
+	color: white;
+	height: 23px;
+	width: 66px;
+	font-size: 13px;
+	text-align: center;
+	padding-top: 2px;
+	float: right;
+}
+
+input{
+	position: middle;
+	border: solid lightskyblue;
+	width: 539px;
+	height: 36px;
+		float: left;
+		padding: 10px;
+}
+
+
+
+.search2{
+	
+	text-align:center;
+	background: cornflowerblue;
+	color: white;
+	height: 30px;
+	width: 100px;
+	font-size: 15px;
+	padding-top: 6px;
+    
+
+}
+
+
+
+.footer{
+	color: gainsboro;
+	text-align: center;
+	font-size: smaller;
+}
+
+
+h5{
+		float: left;
+		padding: 10px;
+		
+}
+
+
+
