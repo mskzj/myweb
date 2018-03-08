@@ -1,6 +1,7 @@
 .guid{
-	 
+
 	 float: right;
+	 color: black;
 	 
 }
 
@@ -16,28 +17,35 @@
 	float: right;
 }
 
+
+
+
+
+
 input{
 	position: middle;
 	border: solid lightskyblue;
-	width: 539px;
-	height: 36px;
+	 width: 539px;
+	
 		float: left;
 		padding: 10px;
+		
 }
 
 
 
-.search2{
-	
+
+
+button{
+	background: cornflowerblue;;
 	text-align:center;
-	background: cornflowerblue;
-	color: white;
-	height: 30px;
+    color: white;
+	height: 40px;
 	width: 100px;
 	font-size: 15px;
 	padding-top: 6px;
+	float: ;
     
-
 }
 
 
@@ -46,14 +54,40 @@ input{
 	color: gainsboro;
 	text-align: center;
 	font-size: smaller;
+	clear: all;
+	display: table-cell;
+	vertical-align: middle;
 }
 
 
-h5{
-		float: left;
+
+.t1{
+	font-size: small;
+	padding: 0px 550px 30px;
+	
+}
+
+.t2{
+	padding: 80px 720px 2px;
+}
+
+
+
+a{
+	   
+	    float: left;
 		padding: 10px;
-		
+		font-size: smaller;
+	   margin-left: auto;
 }
 
+p{
+	display:table;
+	margin-left:auto;
+	margin-right: auto;
+}
 
-
+ul
+{
+	padding: 0px 600px;
+}
