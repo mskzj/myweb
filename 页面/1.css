@@ -1,0 +1,83 @@
+
+.ture{
+	
+}
+
+.clear{
+	clear: all;
+}
+
+
+ .samller{
+    	float: right;
+}
+
+.header a{
+    	display: none;
+    }
+    
+    
+  
+@media only screen and (min-width: 700px) {
+   
+   body{
+ 	max-width: 1500px;
+  	margin: 0px auto;
+  	text-align: center;
+   }
+  
+    .header{
+    	border: solid;
+    	height: 100px;
+    	text-align: center;
+    	vertical-align: middle;
+    	
+    }
+    
+    .header a{
+    	margin-top: 20px;
+    	padding: 20px;
+    	text-align: center;
+    	height: 20px;width: 80px;
+         display: block;
+    	float: right;
+    }
+    
+    a:hover{
+    	background-color: deepskyblue;
+    	
+    	}
+    	
+    .samller{
+    	float: right;
+    	display: none;
+    }
+  
+	.eye{
+		width: 100%;
+		height: 500px;
+		z-index: 1;
+		background: url(image/images/banner.jpg);
+	}
+	
+	.eye2{
+		text-align: center;
+		width: 100%;
+		height: 500px;
+		background: darkslateblue;
+		z-index: 2;
+		opacity: 0.6;
+	}
+	
+	.eye3{
+		
+		margin: 0px auto;
+	   text-align: center;
+	   width: 600px;
+		height: 400px;
+		z-index: 3;
+		text-align: center;
+	}
+	
+	
+}
