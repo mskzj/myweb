@@ -1,13 +1,17 @@
 
-.ture{
-	
-}
-
+a:hover{
+    	background-color: deepskyblue;
+    	color: white;
+  }
+  
+  
 .clear{
 	clear: all;
 }
 
-
+.nothing{
+	display: none;
+}
  .samller{
     	float: right;
 }
@@ -16,8 +20,249 @@
     	display: none;
     }
     
-    
-  
+  	.eye{
+		height: 500px;
+		z-index: 1;
+		background: url(image/images/banner.jpg);
+		
+	}
+	
+	.eye2{
+		text-align: center;
+		height: 500px;
+		background: midnightblue;
+		z-index: 2;
+		opacity: 0.85;
+	
+	}
+	
+	.eye2 img{
+		display: none;
+			float: left;
+	}
+
+	.eye3{
+		
+		color: white;
+		font-size: larger;
+		margin: 0px auto;
+	    text-align: center;
+		height: 400px;
+		z-index: 3;
+		text-align: center;
+	}
+	
+	.eye3 h1{
+		padding-top: 60px;
+	}
+	
+	.eye3 p{
+		padding-bottom: 20px;
+	}
+	.eye3 a{
+		
+		color: white;
+		margin: 20px;
+		padding:10px 20px ;
+		height: 40px;
+		width: 130px;
+	}  
+	
+.nose{
+	text-align: center;
+	height: 420px;
+	width: 1500px;
+}
+	
+.nose1{
+		text-align: center;
+		height: 400px;
+		width: 300px;
+		float: left;
+		padding: 20px 80px;
+	}
+
+	
+.nose1 a{
+		height: 20px;
+		width: 100px;
+		padding:10px 100px;
+	}
+	
+.nose2{
+	width: 20px;
+	height: 420px;
+	float: left;
+
+}
+.nose2 img{
+	padding-top:150px;
+}
+.neck{
+	    
+		height: 600px;
+		z-index: 1;
+		background-image: url(image/images/about_bg.jpg);
+		float: left;
+}
+	
+.neck1{
+	
+	text-align: center;
+	vertical-align: middle;
+	margin: 20px;
+	margin-top:100px;
+	padding: 10px;
+	height: 350px;
+	background-color: white;
+	z-index: 2;
+	
+}
+
+
+ .neck1 a{
+   	display: none;
+   }
+
+
+.shoulder{
+	padding-top: 40px;
+	text-align: center;
+	height: 650px;
+	width: 100%;
+	clear: both;
+}
+.shoulder a{
+margin: 10px 20px 10px;
+padding:10px 20px;
+
+}
+
+.shoulder1{
+	text-align: center;
+	margin:0px 30px;
+	height: 450px;
+	width: 200px;
+	float: left;
+	
+}
+
+.shoulder2 :hover{
+	background-color: deepskyblue;
+	color: white;
+	display: inherit;
+}
+.shoulder1 img{
+	height: 200px;
+	width: 200px;
+}
+
+
+.shoulder1 a{
+	color: white;
+}
+
+.shoulder1 a:hover{
+	color: deepskyblue;
+	background-color: white;
+}
+
+
+.heart{
+	margin: 0px auto;
+	    width: 100%;
+		height: 700px;
+		z-index: 1;
+		background: url(image/images/home_newsbg.jpg);
+		clear: both;
+	}
+	
+.heart2{
+	padding: 50px;
+	color: white;
+	text-align: center;
+	margin: 0px auto;
+	z-index: 2;
+	height: 450px;
+	width: 450px;
+	
+}
+
+.heart2 a{
+	margin:15px 10px;
+	color: black;
+	background-color: white;
+	padding:10px 30px;
+}
+
+.heart2 a:hover{
+	background-color: deepskyblue;
+}
+
+.heart3{
+	padding-top: 20px;
+	height: 200px;
+	width: 540px;
+	color: white;
+	
+}
+.heart3 img{
+	height: 150px;
+	width: 150px;
+	float: left;
+}
+.heart3 h3{
+	max-width: 500px;
+}
+.heart3 h5{
+	color: burlywood;
+	max-width: 500px;
+}
+.heart3 a{
+	border:solid burlywood;
+	color: burlywood;
+	float: left;
+	background-color: inherit;
+}
+.heart3  a:hover{
+	background-color: initial;
+}
+.foot{
+	text-align: center;
+	padding:50px 50px 50px 100px;
+}
+.foot img{
+	border: outset;
+	height: 80px;
+	max-width: 120px;
+	float: left;
+}
+
+.footer{
+	margin-top: 50px;
+	padding:40px 100px 0px;
+	text-align: left;
+	width: 100%;height: 200px;
+	background-color: darkblue;
+	color: white;
+}
+.footer{
+	float: left;
+}
+
+.footer a{
+	color: white;
+	border-right:solid white;
+	padding:0px 20px;
+}
+
+.footer a :hover{
+	background-color: initial;
+}
+
+
+
+
 @media only screen and (min-width: 700px) {
    
    body{
@@ -27,8 +272,8 @@
    }
   
     .header{
-    	border: solid;
-    	height: 100px;
+
+    	height: 80px;
     	text-align: center;
     	vertical-align: middle;
     	
@@ -36,48 +281,88 @@
     
     .header a{
     	margin-top: 20px;
-    	padding: 20px;
+    	padding: 10px;
     	text-align: center;
-    	height: 20px;width: 80px;
+    	height: 50px;width: 80px;
          display: block;
     	float: right;
     }
     
-    a:hover{
-    	background-color: deepskyblue;
-    	
-    	}
+    
     	
     .samller{
     	float: right;
     	display: none;
     }
-  
-	.eye{
+    
+    .nothing{
+    	display: block;
+    }
+    .eye{
 		width: 100%;
 		height: 500px;
-		z-index: 1;
-		background: url(image/images/banner.jpg);
+		
 	}
 	
 	.eye2{
-		text-align: center;
 		width: 100%;
 		height: 500px;
-		background: darkslateblue;
-		z-index: 2;
-		opacity: 0.6;
 	}
 	
-	.eye3{
-		
-		margin: 0px auto;
-	   text-align: center;
-	   width: 600px;
-		height: 400px;
-		z-index: 3;
-		text-align: center;
+	.eye2 img{
+    	display:block;
+	
 	}
 	
+    .eye3{
+    	width: 1200px;
+    }
 	
+	.neck{
+		width: 100%;
+   }     
+    
+    .neck1{
+	margin: 0px auto;
+	margin-top:100px;
+	width: 800px;
+	
+   }
+   
+   .neck1 a{
+   	font: "arial black" larger;
+   margin-left:30px;
+   	display: block;
+   	padding: 0px 30px;
+   	float: left;
+   }
+    
+	.shoulder a{
+	margin: 10px 20px 10px;
+     padding:10px 20px; 
+	}
+	
+	.shoulder1{
+		width: 300px;
+		margin:0px 25px 0px 35px;
+	}
+	.shoulder1 img{
+		width: 300px;
+		height: 250px;
+	}
+	
+	.heart2{
+		width: 1200px;
+	}
+	
+	.foot img{
+	border: outset;
+	height: 120px;
+	max-width: 400px;
+	float: left;
+    }
+
+	.footer{
+		background-color: black;
+	}
 }
