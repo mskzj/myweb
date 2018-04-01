@@ -254,12 +254,12 @@ padding:10px 20px;
 	color: white;
 	border-right:solid white;
 	padding:0px 20px;
+	background-color: inherit;
 }
 
 .footer a :hover{
 	background-color: initial;
 }
-
 
 
 
@@ -356,7 +356,6 @@ padding:10px 20px;
 	}
 	
 	.foot img{
-	border: outset;
 	height: 120px;
 	max-width: 400px;
 	float: left;
